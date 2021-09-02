@@ -4,7 +4,9 @@ body {
 }
 
 .pageContainer {
+    overflow-x: none;
     width: 100vw;
+    /* max-width: 1440px; */
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -64,4 +66,53 @@ body {
     width: 580px;
     font-size: 42px;
     font-weight: 700;
+}
+
+.everydayCat {
+    box-sizing: border-box;
+    overflow-x: none;
+    padding: 25px;
+    width: 85%;
+    margin: auto;
+}
+
+.everydayTitle {
+    overflow-x: none;
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.everydayText {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.everdayImg {
+    /* height: 50px; */
+    /* width: 50px; */
+    object-fit: contain;
+
+}
+
+.smallImgs {
+    height: 275px;
+    width: 365px;
+}
+
+.smallImgTxt {
+    width: 275px;
+    text-align: center;
+    margin-left: 45px;
+}
+
+.healthyRecipesCat {
+    background-color: rgb(220, 223, 233);
 }
