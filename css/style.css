@@ -6,7 +6,8 @@ body {
 .pageContainer {
     overflow-x: none;
     width: 100vw;
-    /* max-width: 1440px; */
+    max-width: 1200px;
+    margin: auto;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -16,7 +17,6 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(230, 168, 78);
-    /* border: 1px solid black; */
 }
 
 .ryParisLogo {
@@ -52,7 +52,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 560px;
+    height: 465px;
     margin-top: 3px;
 }
 
@@ -63,8 +63,7 @@ body {
     margin-right: 80px;
     text-align: center;
     letter-spacing: 3px;
-    width: 580px;
-    font-size: 42px;
+    font-size: 34px;
     font-weight: 700;
 }
 
@@ -77,8 +76,7 @@ body {
 }
 
 .everydayTitle {
-    overflow-x: none;
-    margin-top: 30px;
+    margin-top: 15px;
     font-size: 35px;
     font-weight: 700;
 }
@@ -95,24 +93,159 @@ body {
     margin-top: 25px;
 }
 
-.everdayImg {
-    /* height: 50px; */
-    /* width: 50px; */
-    object-fit: contain;
+.imgWrap {
+    height: 250px;
+    width: 300px;
+    overflow: hidden;
 
 }
 
 .smallImgs {
-    height: 275px;
-    width: 365px;
+    height: 100%;
+    width: 300px;
+    object-fit: cover;
+}
+
+.breakfastImg {
+    transform: scale(1.1);
+    width: 330px;
 }
 
 .smallImgTxt {
-    width: 275px;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-weight: 700;
+    font-size: 19px;
+    width: 245px;
     text-align: center;
-    margin-left: 45px;
+}
+
+.coldWeatherTxt {
+    margin-left: 0px;
+    width: 100%;
 }
 
 .healthyRecipesCat {
     background-color: rgb(220, 223, 233);
+    width: 100%;
+    margin: auto;
+}
+
+.healthyRecipeHeader {
+    margin-top: 25px;
+    padding-top: 25px;
+}
+
+.healthyTitle {
+    overflow-x: none;
+    margin-top: 15px;
+    margin-left: 110px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.healthyText {
+    margin-top: 10px;
+    margin-left: 110px;
+    margin-right: 55px;
+    margin-bottom: 35px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.healthySelection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-left: 110px;
+    padding-bottom: 55px;
+    width: 83%;
+}
+
+.healthyImgContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+}
+
+.healthyImgWrap {
+    height: 175px;
+    width: 220px;
+    overflow: hidden;
+}
+
+.healthyImg {
+    height: 100%;
+    width: 220px;
+    object-fit: cover;
+}
+
+.healthySmallText {
+    background-color: white;
+    padding: 10px 0px;
+    width: 220px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.whereToEatCat {
+    box-sizing: border-box;
+    overflow-x: none;
+    padding: 25px;
+    width: 85%;
+    margin: auto;
+}
+
+.whereToEatTitle {
+    margin-top: 15px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.whereToEatText {
+    margin-top: 10px;
+    margin-bottom: 23px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.whereToEatWrap {
+    height: 220px;
+    width: 285px;
+    border: 7px solid rgb(220, 223, 233);
+}
+
+.whereToEatSmallImg {
+    height: 100%;
+    width: 285px;
+}
+
+.whereToEatSmallTxt {
+    margin-top: 9px;
+}
+
+.footerContainer {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(230, 168, 78);
+}
+
+.ryParisCopyright {
+    font-size: 21px;
+    margin-left: 115px;
+}
+
+.footerNavBar {
+    margin-right: 100px;
+}
+
+.footerNavMenu {
+    font-size: 18px;
+    margin-right: 10px;
+    color: rgb(47,44,42);
+    text-decoration: none;
 }
