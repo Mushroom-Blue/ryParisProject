@@ -45,7 +45,7 @@ body {
 }
 
 .topImg {
-    background-image: url(/images/hero-image.jpg);
+    background-image: url(./images/hero-image.jpg);
     background-repeat: no-repeat;
     object-fit: contain;
     background-size: cover;
