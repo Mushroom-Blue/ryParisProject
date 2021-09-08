@@ -56,6 +56,32 @@ body {
     margin-top: 3px;
 }
 
+.recipeTopImg {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.topImgBanner {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.whiteImgTextTwo {
+    background-color: white;
+    padding: 10px 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 34px;
+    font-weight: 700;
+    position: absolute;
+    z-index: 10;
+    top: 390px;
+    left: 380px;
+}
+
 .whiteImgText {
     background-color: white;
     padding: 5px;
@@ -66,6 +92,37 @@ body {
     font-size: 34px;
     font-weight: 700;
 }
+
+.recipeTopImgBottom {
+    background-color: rgb(220, 223, 233);
+    width: 100%;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+.recipeTime {
+    font-weight: 700;
+    font-size: 28px;
+    padding-top: 25px;
+    margin-left: 90px;
+}
+
+.recipeTopText {
+    display: flex;
+    margin-left: 92px;
+    font-size: 20px;
+}
+
+
+.recipeTopItems {
+    margin-right: 155px;
+    margin-top: 10px;
+}
+
+.prepLine {
+    margin-left: 15px;
+}
+
 
 .everydayCat {
     box-sizing: border-box;
@@ -225,6 +282,148 @@ body {
     margin-top: 9px;
 }
 
+.begalBurgerContainer {
+    display: flex;
+}
+
+.bengalBurgerTitle {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+#star {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: #9A3B2B;
+    margin-top: 5px;
+}
+
+.starReview {
+    color: black;
+    margin-left: 12px;
+    font-weight: 700;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 13px;
+}
+
+.saveRecipeBttn {
+    text-align: center;
+    font-size: 15px;
+    background-color: #9A3B2B;
+    color: white;
+    border: none;
+    box-sizing: border-box;
+    width: 125px;
+    padding: 11px 16px;
+    margin-right: 24px;
+    border-radius: 16px;
+}
+
+.printBttn {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.bengalBurgerBio {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 92%;
+    margin: auto;
+}
+
+.bengalBurgerBioTxt {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+    background-color: #EEF0F4;
+    color: #575656;
+    padding: 20px 150px;
+    margin: 25px 45px 25px 45px;
+}
+
+.bengalBurgerRecipeContainer {
+    display: flex;
+    height: 900px;
+    width: 84%;
+    margin: auto;
+}
+
+.bengalRecipeColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.bengalRecipeColumn > h2 {
+    margin: 0;
+}
+
+.bengalRecipeColumn > h3 {
+    margin: 0;
+    padding-left: 17px;
+}
+
+.bengalRecipeIngredients {
+    padding-left: 18px;
+}
+
+.begnalRecipeSpiceMix {
+    align-items: center;
+    margin-top: 0px;
+    padding-left: 18px;
+}
+
+.bengalRecipeDirections {
+    width: 55%;
+    margin-left: 105px;
+}
+
+.bengalRecipeDirectionsTitle {
+    margin-left: 25px;
+}
+
+.bengalRecipeFirstWord {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.bengalRecipeSpiceTitle {
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+ol > li {
+    margin-bottom: 24px;
+}
+
+.timingTitle {
+    position: relative;
+    margin-top: 45px;
+}
+
+li > h3 {
+    position: absolute;
+    top: -23px;
+    margin: 0;
+}
+
+.burgerVideo {
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 5px; */
+}
 .footerContainer {
     display: flex;
     height: 100px;
